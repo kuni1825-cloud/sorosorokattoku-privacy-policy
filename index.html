@@ -1,80 +1,110 @@
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プライバシーポリシー | KOTA_LAB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KOTA_LAB</title>
 
-    <style>
-        body{
-            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Meiryo,sans-serif;
-            background:#f5f5f5;
-            color:#333;
-            line-height:1.9;
-            margin:0;
-        }
+<style>
 
-        .container{
-            max-width:900px;
-            margin:40px auto;
-            background:#fff;
-            padding:40px;
-            border-radius:12px;
-            box-shadow:0 4px 15px rgba(0,0,0,.08);
-        }
+body{
+    margin:0;
+    background:#f5f5f5;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Meiryo,sans-serif;
+    color:#333;
+    line-height:1.8;
+}
 
-        h1{
-            text-align:center;
-            border-bottom:3px solid #4CAF50;
-            padding-bottom:15px;
-            margin-bottom:35px;
-        }
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:40px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
 
-        h2{
-            color:#2E7D32;
-            border-left:6px solid #4CAF50;
-            padding-left:12px;
-            margin-top:40px;
-        }
+header{
+    text-align:center;
+    margin-bottom:40px;
+}
 
-        ul{
-            padding-left:24px;
-        }
+header h1{
+    font-size:2.6em;
+    color:#2E7D32;
+    margin-bottom:10px;
+}
 
-        li{
-            margin-bottom:8px;
-        }
+header p{
+    color:#666;
+    font-size:1.1em;
+}
 
-        footer{
-            margin-top:50px;
-            text-align:center;
-            color:#666;
-            font-size:0.9em;
-            border-top:1px solid #ddd;
-            padding-top:20px;
-        }
+.section{
+    margin-top:40px;
+}
 
-        a{
-            color:#1976D2;
-            text-decoration:none;
-        }
+.section h2{
+    color:#2E7D32;
+    border-left:6px solid #4CAF50;
+    padding-left:12px;
+}
 
-        a:hover{
-            text-decoration:underline;
-        }
+.card{
+    background:#fafafa;
+    border:1px solid #e0e0e0;
+    border-radius:10px;
+    padding:20px;
+    margin-top:20px;
+}
 
-        @media (max-width:600px){
-            .container{
-                margin:0;
-                border-radius:0;
-                padding:24px;
-            }
+.card h3{
+    margin-top:0;
+}
 
-            h1{
-                font-size:1.8em;
-            }
-        }
-    </style>
+.button{
+    display:inline-block;
+    margin-top:12px;
+    padding:10px 20px;
+    background:#4CAF50;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.button:hover{
+    background:#43A047;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    margin-top:60px;
+    text-align:center;
+    color:#666;
+    font-size:0.9em;
+    border-top:1px solid #ddd;
+    padding-top:20px;
+}
+
+@media(max-width:600px){
+
+.container{
+    margin:0;
+    border-radius:0;
+    padding:24px;
+}
+
+header h1{
+    font-size:2em;
+}
+
+}
+
+</style>
 
 </head>
 
@@ -82,92 +112,89 @@
 
 <div class="container">
 
-<h1>プライバシーポリシー</h1>
+<header>
+
+<h1>KOTA_LAB</h1>
 
 <p>
-デベロッパー名「<strong>KOTA_LAB</strong>」（以下、「当方」といいます）が提供するスマートフォン用アプリケーション（以下、「本アプリ」といいます）における、ユーザー情報の取扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます）を定めます。
+毎日の暮らしを少し便利に。<br>
+Androidアプリを開発・提供しています。
 </p>
 
-<h2>1. 収集する情報および収集方法</h2>
+</header>
 
-<p>当方は、本アプリにおいて以下の情報を取得する場合があります。</p>
+
+<div class="section">
+
+<h2>提供アプリ</h2>
+
+<div class="card">
+
+<h3>📱 そろそろ買っとく</h3>
+
+<p>
+日用品や調味料の在庫・残量を管理し、
+買い忘れを防ぐためのアプリです。
+</p>
+
+<!-- 公開後に追加 -->
+<!--
+<a class="button" href="https://play.google.com/store/apps/details?id=あなたのパッケージ名">
+Google Playで見る
+</a>
+-->
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>ポリシー</h2>
 
 <ul>
-    <li><strong>端末情報</strong><br>
-    サービス改善を目的として、OSのバージョン、端末モデル名などの情報を取得することがあります。</li>
 
-    <li><strong>利用ログ情報</strong><br>
-    アプリ内の操作履歴やクラッシュレポートなど、サービスの維持・改善のための統計データを取得することがあります。</li>
+<li>
+<a href="privacy.html">
+プライバシーポリシー
+</a>
+</li>
 
-    <li><strong>購入に関する情報</strong><br>
-    将来的に提供される有料機能の購入時に、Google Play等の決済プラットフォームを通じて購入履歴を取得する場合があります。なお、クレジットカード番号等の決済情報は各決済プラットフォームが管理し、当方が直接取得・保管することはありません。</li>
+<li>
+<a href="terms.html">
+利用規約
+</a>
+</li>
+
 </ul>
 
-<h2>2. 利用目的</h2>
+</div>
 
-<p>取得した情報は、以下の目的で利用します。</p>
 
-<ul>
-    <li>本アプリの提供、維持、保護および改善</li>
-    <li>ユーザーからのお問い合わせへの対応</li>
-    <li>将来的な新機能（有料課金機能を含む）の提供および案内</li>
-    <li>利用規約違反への対応</li>
-</ul>
+<div class="section">
 
-<h2>3. 第三者提供・外部送信</h2>
+<h2>お問い合わせ</h2>
 
 <p>
-当方は、法令に定める場合を除き、ユーザーの同意なく個人情報を第三者へ提供することはありません。
-ただし、アクセス解析、広告配信、決済処理等のため、Google Analytics for Firebaseなどの第三者サービスを利用する場合があります。
+
+KOTA_LAB<br>
+
+<a href="mailto:kuni1825@gmail.com">
+kuni1825@gmail.com
+</a>
+
 </p>
 
-<h2>4. Amazonアソシエイト・プログラムについて</h2>
+</div>
 
-<p>
-KOTA_LABは、Amazon.co.jpを宣伝しリンクすることで紹介料を得られるアフィリエイトプログラム
-「Amazonアソシエイト・プログラム」の参加者です。
-このプログラムにより、第三者（Amazon等）がユーザーから直接情報を取得し、Cookie等を利用する場合があります。
-</p>
-
-<h2>5. 有料コンテンツおよび決済について</h2>
-
-<p>
-本アプリでは、将来的に追加機能等の提供に伴い、アプリ内課金を導入する予定です。
-決済はGoogleが提供する決済システムを通じて行われ、当方がクレジットカード番号などの決済情報を取得・保管することはありません。
-</p>
-
-<h2>6. 免責事項</h2>
-
-<p>
-本アプリの利用により発生したトラブル・損害等について、当方は一切の責任を負いません。
-また、本アプリからリンクされる外部サイト（Amazon等）のサービスについては、各サイトの利用規約およびプライバシーポリシーをご確認ください。
-</p>
-
-<h2>7. プライバシーポリシーの変更</h2>
-
-<p>
-当方は、法令の制定・改正その他必要に応じて、本ポリシーを予告なく変更することがあります。
-変更後の内容は、本アプリ内または指定するウェブサイトへ掲載した時点から効力を生じます。
-</p>
-
-<h2>8. お問い合わせ</h2>
-
-<p>
-本ポリシーに関するお問い合わせは、アプリ内のお問い合わせフォーム、または以下までお願いいたします。
-</p>
-
-<p>
-<strong>デベロッパー名</strong><br>
-KOTA_LAB
-</p>
-
-<p>
-<strong>メールアドレス</strong><br>
-<a href="mailto:kuni1825@gmail.com">kuni1825@gmail.com</a>
-</p>
 
 <footer>
-    © 2026 KOTA_LAB All Rights Reserved.
+
+<p>© 2026 KOTA_LAB</p>
+
+<p>All Rights Reserved.</p>
+
 </footer>
 
 </div>
